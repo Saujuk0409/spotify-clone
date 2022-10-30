@@ -1,0 +1,71 @@
+@font-face{
+    font-family: "Circular sp";
+    src:url("../../assets/Circular/CircularStd-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "CircularSpTitle";
+    src: url("../../assets/CircularFontFamily/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "CircularSpfont";
+    src: url("../../assets/CircularFontFamily/ProductSans-Bold.ttf") format("truetype");
+}
+:root{
+    --font-circular-sp:"Circular sp";
+    --font-circularSpTitle:"CircularSpTitle";
+    --font-circularSpfont:"circularSpfont";
+}
+
+.f-circular-sp{
+    font-family: var(--font-circular-sp);
+    font-family:var(--font-circularSpTitle);
+    font-family: var(--font-circularSpfont);
+}
+.playlist {
+	width: 11rem;
+	padding: 1rem;
+	height: 18rem;
+	background-color: black;
+    font-family: 'CircularSpfont';
+	margin: 1rem;
+	cursor: pointer;
+    align-items: center;
+    justify-content: center;
+	/* border-radius: 1rem; */
+    /* --column-width: 161px;
+    --column-count: 5;
+    --grid-gap: 24px; */
+    /* margin-right: 7rem; */
+
+}
+.playlist img {
+		width: 11rem;
+		height: 11rem;
+        padding-bottom: 10px;
+		/* object-fit: cover; */
+}
+
+.playlist p {
+		font-size: 1.2rem;
+		font-weight: 700;
+        overflow: hidden;   
+        text-decoration: none;
+        color: white;
+		margin: 1rem 0;
+}
+
+.playlist span {
+		font-size: 1rem;
+		color: var(--light-white);
+		/* -webkit-line-clamp: 2;
+		-webkit-box-orient: vertical; */
+		display: -webkit-box;
+		overflow: hidden;
+        text-decoration: none;
+        color: #6a6a6a;
+		text-overflow: ellipsis;
+	}
+
+	.playlist:hover {
+		background-color:rgb(50, 45, 45);
+	}

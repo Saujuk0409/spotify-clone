@@ -1,7 +1,11 @@
+
+/* *{
+  background-color: black;
+} */
 .App {
   text-align: center;
+  background-color: #24272e;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +31,25 @@
 .App-link {
   color: #61dafb;
 }
+
+.main {
+  width: 100%;
+  overflow-y: scroll;
+  position: relative;
+  padding-top: 3.4rem;
+}
+  .mainContent {
+    color: white;
+  }
+    .mainInner {
+      padding: 0.5rem 2rem;
+    }
+    h1,
+    h2 {
+      font-size: 1.8rem;
+    }
+  /* }
+} */
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,91 @@
+.song_container {
+	width: 100%;
+	height: 4rem;
+	border-radius: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.song_container:hover {
+    background-color: var(--light-black);
+}
+.sleft {
+    display: flex;
+    flex: 1;
+}
+.sleft img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.sleft p{
+    font-size: 1rem;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-left: 1rem;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+}
+.artist{
+    padding-top: 10px;
+
+}
+.play_btn {
+    margin: 0 0.5rem;
+}
+.play_btn  svg {
+        width: 2rem;
+        height: 2rem;
+        color: var(--white);
+}
+
+.scenter {
+    flex: 1;
+
+}
+.scenter p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: white;
+}
+.scentre-right{
+    margin-left: 40px;
+    /* margin-right: 10px; */
+}
+.scentre-right p{
+    color: #fff;
+}
+.sright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    flex: 1;
+}
+hr{
+    color: #b3b3b3;
+    size: 0.1rem;
+}
+.songid{
+    padding-right: 30px;
+}
+.sright p {
+    margin: 0 0.5rem 0 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.menu-btn svg {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}

@@ -1,0 +1,112 @@
+/* *{
+    background-color: black;
+} */
+.cp-container {
+    position: relative;
+    margin-left: 300px;
+    background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.4) 100%);
+}
+.progress_container {
+		height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.cp-head {
+		position: relative;
+		display: flex;
+		padding: 5rem;
+		background-color: var(--gradient-gray);
+}
+.cp-head_gradient {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			background: linear-gradient(transparent 0, rgba(0, 12, 244, 0.4) 100%);
+}
+
+.cp-head_gradient img {
+			width: 25rem;
+			height: 25rem;
+			box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+}
+.cp-playlist_info {
+			align-self: flex-end;
+			margin-left: 2rem;
+}
+.cp-playlist_info h1 {
+				font-size: 8rem;
+				margin: 0;
+                color: white;
+}
+.cp-playlist_info p {
+				font-size: 1.4rem;
+				margin: 0;
+				text-transform: uppercase;
+                color: white;
+}
+.cp-playlist_info span {
+				font-size: 1.4rem;
+}
+.cp-actions_container {
+			position: absolute;
+			top: 20px;
+			right: 0;
+			padding: 2rem;
+}
+.cp-actions_container svg {
+				width: 2.4rem;
+				height: 2.4rem;
+				color: white;
+}
+.cp-body {
+		padding: 1rem 3rem;
+}
+.cp-body_nav {
+			display: flex;
+			justify-content: space-between;
+			padding: 0.5rem 0;
+			color: var(--light-white);
+			font-size: 1.4rem;
+			text-transform: uppercase;
+			border-bottom: 1px solid var(--light-white);
+			margin-bottom: 1rem;
+}
+.cp-left {
+				display: flex;
+				flex: 1;
+				padding-left: 2rem;
+}
+.cp-left span {
+					margin-right: 1.5rem;
+}
+
+.cp-left p {
+					margin: 0;
+                    color: white;
+}
+.cp-center {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+
+}
+.cp-center p {
+					margin: 0;
+                    color: white;
+}
+
+.cp-right {
+				flex: 1;
+				display: flex;
+				justify-content: flex-end;
+				padding-right: 4rem;
+
+}
+.cp-right svg {
+	width: 2rem;
+	height: 2rem;
+}

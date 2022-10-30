@@ -1,0 +1,48 @@
+
+
+.container {
+	padding: 0 2rem;
+    padding-top: 5rem;
+    margin-left: 300px;
+    width: 90%;
+	height: 100%;
+	background-color: black;
+}
+.container h1 {
+		font-size: 1.5rem;
+        padding-left: 12px;
+		text-transform: capitalize;
+        background-color: transparent;
+        color: white;
+	}
+
+.playlists_container {
+		display: flex;
+		flex-wrap: wrap;
+}
+.liked_songs {
+			width: 28.1rem;
+			height: 20rem;
+			border-radius: 1rem;
+			margin: 1rem 0;
+			margin-left: 0.6rem;
+			background: linear-gradient(149.46deg, #450af5, #8e8ee5 99.16%);
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+}
+.liked_songs h1 {
+				font-size: 2rem;
+				margin: 0 1rem;
+                background-color: transparent;
+			}
+
+.liked_songs p {
+				font-size: 1rem;
+				font-weight: 500;
+				margin: 1rem 1rem 2rem 1rem;
+                padding-left: 10px;
+                background-color: transparent;
+                color: white;
+    }
