@@ -23,9 +23,8 @@ const playlists = [
 const Library = () => {
 	return (
     <>
-	<div className="lib-container">
     <Navbar/>
-	<div className="container">
+	<div className="lib-container">
 			<h1>Playlists</h1>
 			<div className="playlists_container">
 				<Link to="/collection/tracks" style={{textDecoration:'none'}}>
@@ -37,7 +36,6 @@ const Library = () => {
 				<Playlists playlists={playlists} />
 			</div>
 		</div>
-	</div>
     </>
 	);
 };

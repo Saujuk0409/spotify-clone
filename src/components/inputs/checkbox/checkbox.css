@@ -1,15 +1,20 @@
 .checkbox_container {
 	align-items: baseline !important;
+    background-color: white;
 }
 
 .checkbox {
+    color: white;
     transform: scale(1.6);
     padding: 0;
     padding-top: 0.5rem;
+    background-color: white;
 }
 
 .checkbox_container span {
     font-size: 1.4rem;
     font-weight: 400;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    background-color: white;
+    /* padding-left: 10px; */
 }

@@ -6,7 +6,6 @@
     font-family: "CircularSpTitle";
     src: url("../assets/CircularFontFamily/Gotham-Bold.otf") format("opentype");
 }
-
 :root{
     --font-circular-sp:"Circular sp";
     --font-circularSpTitle:"CircularSpTitle";
@@ -20,7 +19,8 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all 0.5s ease;   
+    transition: all 0.5s ease;
+    background: transparent;   
   }
 
 
@@ -40,7 +40,7 @@
 .main-content,.main-content1{
    background-color: transparent;
    width: 100%-232px;
-   padding-left: 30px;
+   padding-left: 230px;
    overflow-x: hidden;
    overflow-y: hidden;
    display: flex;
@@ -224,5 +224,5 @@
     
 }
 .base-content{
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }

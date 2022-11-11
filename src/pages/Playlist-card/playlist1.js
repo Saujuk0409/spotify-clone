@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import Song from "../components/song";
+import Song from "../../components/song";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import "../styles/likedsongs.css";
-import likeImg from "../assets/img/like.jpg";
-import peaches from "../assets/img/mood1.jpeg";
-import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import "../../styles/likedsongs.css";
+import likeImg from "../../assets/img/like.jpg";
+import peaches from "../../assets/img/mood1.jpeg";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/footer";
 
 const songs = [
   {
@@ -90,7 +90,7 @@ const songs = [
   },
 ];
 
-const LikedSongs = () => {
+const Playlist1 = () => {
   return (
     <>
       <Navbar />
@@ -134,4 +134,4 @@ const LikedSongs = () => {
   );
 };
 
-export default LikedSongs;
+export default Playlist1;

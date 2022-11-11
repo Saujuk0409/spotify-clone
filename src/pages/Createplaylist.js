@@ -26,7 +26,7 @@ const CreatePlaylist = () => {
 
 	return (
 		<>
-		<Navbar/>
+		<Navbar showSearch={false}/>
 		<div className="cp-container">
 			<div className="cp-head">
 				<div className="cp-head_gradient"></div>

@@ -1,7 +1,7 @@
 // import './App.css';
 import "./styles/body.css";
 import "./styles/topNavBar.css";
-import React from "react";
+import React, { useState } from "react";
 import topNavBar from "./components/topNavBar";
 import "./styles/topNavBar.css";
 import Navbar from "./components/Navbar.js";
@@ -12,14 +12,20 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Library from "./pages/Library";
 import RouterProvider from "./RouterProvider";
+import {getplayList} from "./services/playlist"
 // import Player from "./components/player";
 // const navigateLogin=() => {
 //   navigateLogin('/login');
 // }
 function App() {
+
+  const [playlist,setPlayList] = useState([]);
+  const updatePlayList = (newPlayList) => {
+    setPlayList(newPlayList)
+  }
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      {/* <button onClick={handleGetPlaylist} >check endpoint</button>      <Navbar/> */}
       {/* <topNavBar/> */}
       {/* <Router>
         {/* <Navbar/> */}
@@ -30,7 +36,7 @@ function App() {
 
       {/* </Routes> */}
       {/* </Router> */}
-      <RouterProvider />
+      <RouterProvider  />
       {/* <Navbar/> */}
       {/* <Player/> */}
       {/* <Home/> */}

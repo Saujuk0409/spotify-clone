@@ -5,7 +5,7 @@ import Button from "../../components/Button";
 import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import defaultImg from "../../assets/songs/song-1.jpg";
-import styles from "./PlaylistModel.css";
+import "./PlaylistModel.css";
 
 const PlaylistModel = ({ closeModel, playlist }) => {
 	const [data, setData] = useState({
@@ -28,13 +28,13 @@ const PlaylistModel = ({ closeModel, playlist }) => {
 	};
 
 	return (
-		<div className={styles.model_container}>
-			<IconButton className={styles.close_btn} onClick={closeModel}>
+		<div className="pmmodel_container">
+			<IconButton className="pmclose_btn" onClick={closeModel}>
 				<CloseIcon />
 			</IconButton>
-			<div className={styles.form_container}>
+			<div className="pmform_container">
 				<h1>Edit Details</h1>
-				<div className={styles.input_container}>
+				<div className="pminput_container">
 					<TextField
 						label="Name"
 						name="name"
@@ -42,7 +42,7 @@ const PlaylistModel = ({ closeModel, playlist }) => {
 						handleInputState={handleInputState}
 					/>
 				</div>
-				<div className={styles.input_container}>
+				<div className="pminput_container">
 					<TextField
 						label="Description"
 						name="desc"
@@ -50,7 +50,7 @@ const PlaylistModel = ({ closeModel, playlist }) => {
 						handleInputState={handleInputState}
 					/>
 				</div>
-				<div className={styles.input_container}>
+				<div className="pminput_container">
 					<FileInput
 						label="Choose Image"
 						type="image"

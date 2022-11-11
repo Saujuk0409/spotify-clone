@@ -7,19 +7,11 @@ import {Card} from "../components/card"
 import img1 from "../assets/img/bp.jpeg";
 import '../styles/search.css'
 function Search() {
-  const msgref = useRef(null);
-
-  useEffect(() => {
-    msgref.current.scrollIntoView({ 
-      behavior: 'smooth',
-      block: 'end',
-      inline: 'nearest'
-    });
-  });
+    
     return(
     <>
-    <Navbar/>
-    <div class="Searchbody" ref={msgref} style={{overflow:"scroll"}}>
+    <Navbar  showSearch={true}/>
+    <div class="Searchbody">
         <div class="Search-row-name">
             <p>Recent searches</p>
         </div>

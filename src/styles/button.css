@@ -17,5 +17,5 @@
     transform: scale(1.05);
 }
 .primary_btn:focus-visible{
-    outline: 1px solid var(--black);
+    outline: 1px solid black;
 }

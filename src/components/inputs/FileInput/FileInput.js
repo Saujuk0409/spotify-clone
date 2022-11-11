@@ -14,7 +14,7 @@ const FileInput = ({
 	const inputRef = useRef();
 
 	return (
-		<div className="container">
+		<div className="fi-container">
 			<input
 				type="file"
 				ref={inputRef}

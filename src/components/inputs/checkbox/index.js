@@ -9,11 +9,12 @@ const CheckboxInput = ({ label, ...rest }) => {
 			control={
 				<Checkbox
 					{...rest}
-					style={{ color: "#15883e" }}
+					style={{ color: "#15883e"}}
 					className="checkbox"
 				/>
 			}
 			label={label}
+            style={{backgroundColor:"white"}}
 		/>
 	);
 };

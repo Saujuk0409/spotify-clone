@@ -1,10 +1,12 @@
 import React from "react";
 import '../styles/footer.css'
-function Footer()
+import AudioPlayer from "./audioplayer/audioplayer";
+import LogFooter from "../components/logfooter";
+function Footer(props)
 {
     return(
        <div className="ftr">
-            <div className="ftr-container">
+            {/* <div className="ftr-container">
                 <div className="ftr-content">
                     <p className="ftr-line">PREVIEW OF SPOTIFY </p>
                     <p className="ftr-para">
@@ -15,7 +17,8 @@ function Footer()
                 <button className="signupbtn">
                     <span className="span">Sign up free</span>
                 </button>
-            </div>
+            </div> */}
+            <LogFooter />
        </div>
     );
 }

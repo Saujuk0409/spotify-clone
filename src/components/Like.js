@@ -12,7 +12,7 @@ const Like = () => {
 			{!like ? (
 				<FavoriteBorderIcon className="like_outlined" />
 			) : (
-				<FavoriteIcon className="like_filled" />
+				<FavoriteIcon className="like_filled" style={{color:"green"}}/>
 			)}
 		</IconButton>
 	);

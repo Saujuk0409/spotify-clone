@@ -1,16 +1,19 @@
 
 .slcontainer {
-	/* position: relative; */
-	padding-left: 300px;
+	position: relative;
+	margin-left: 300px;
+	margin-top: -300px;
+	background-color: black;
+	margin-bottom: 100px;
 }
-.head {
+.slhead {
 	position: relative;
 	display: flex;
 	padding: 5rem;
-	background-color:lightsteelblue;
-	background:linear-gradient(transparent 0,#1e00ffc7 100%);
 }
-.head_gradient {
+.slhead_gradient {
+	background:linear-gradient(transparent 0,#1e00ffc7 100%);
+	/* 	background-color: #fff; */
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -18,35 +21,35 @@
 	top: 0;
 }
 
-.head_gradient 	img {
+.slhead_gradient 	img {
 	width: 25rem;
 	height: 25rem;
 	box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
 }
-.playlist_info {
+.slplaylist_info {
 	align-self: flex-end;
 	margin-left: 2rem;
 }
-.playlist_info h1 {
+.slplaylist_info h1 {
 	font-size: 8rem;
 	margin: 0;
 	color: #fff;
 }
 
-.playlist_info p {
+.slplaylist_info p {
 	font-size: 1.4rem;
 	margin: 0;
 	text-transform: uppercase;
 	color: #fff;
 }
 
-.playlist_info span {
+.slplaylist_info span {
 	font-size: 1.4rem;
 	color: #fff;
 }
 .lsbody {
 	padding: 1rem 3rem;
-	background-color: #121212;
+	/* background-color: #121212; */
 }
 
 .progress_container {
@@ -55,14 +58,14 @@
 	justify-content: center;
 	margin: 3rem 0;
 }
-.body_nav {
+.lsbody_nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 0.5rem 0;
-	color: var(--light-white);
+	color: #919496;
 	font-size: 1.4rem;
 	text-transform: uppercase;
-	border-bottom: 1px solid var(--light-white);
+	border-bottom: 1px solid #919496;
 	margin-bottom: 1rem;
 }
 .slleft {
@@ -81,14 +84,14 @@
 		margin: 0;
 		color: #b3b3b3;
 }
-.center {
+.lscenter {
 	flex: 1;
 	display: flex;
 	padding-left: 400px;
 	/* justify-content: center; */
 }
 
-.center	p {
+.lscenter	p {
 		margin: 0;
 		color: #b3b3b3;
 }

@@ -1,4 +1,4 @@
-.container {
+.fi-container {
 	width: calc(100% - 2rem);
 	border: 1px solid var(--white);
 	border-radius: 0.5rem;
@@ -6,26 +6,31 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+    background-color: white;
 }
-.container input {
+.fi-container input {
     display: none;
+    background-color: white;
 }
 
-.container audio {
+.fi-container audio {
     width: 25rem;
     height: 4rem;
     border-radius: 0.1rem;
+    background-color: white;
 }
 
-.container img {
+.fi-container img {
     width: 8rem;
     height: 8rem;
     object-fit: contain;
+    background-color: white;
 }
 .success {
     width: 4rem;
     height: 4rem;
     color: var(--primary);
+    background-color: white;
 }
 .progress_container {
     width: 11rem;
@@ -33,9 +38,11 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .progress {
     color: var(--primary) !important;
+    background-color: white;
 }
 
 .progress_container p {
@@ -44,4 +51,5 @@
     width: inherit;
     text-align: center;
     font-size: 1.2rem;
+    background-color: white;
 }

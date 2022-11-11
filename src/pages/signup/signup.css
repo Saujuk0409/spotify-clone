@@ -1,0 +1,222 @@
+.su-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+    background-color: white;
+    top: 0;
+	left: 0;
+	padding: 4rem 0;
+}
+.su-logo {
+    width: 10rem;
+    margin-bottom: 1rem;
+    background-color: white; 
+    align-items: center;
+}
+
+.login-main 
+{
+        width: 590px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 2rem;
+        background-color: white;
+        align-items: center;
+}
+.su-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    background-color: white;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+}
+
+.su-or_container {
+    display: table;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.2rem;
+    margin: 0px auto 1em;
+    color: var(--light-white);
+    position: relative;
+    text-align: center;
+    width: 40rem;
+    margin: 2rem 0;
+    background-color: white;
+}
+.su-or_container::before {
+        border-top: 1px solid var(--light-white);
+        content: "";
+        display: table-cell;
+        position: relative;
+        top: 0.8em;
+        width: 42%;
+    }
+
+.su-or_container::after {
+        border-top: 1px solid white;
+        content: "";
+        display: table-cell;
+        position: relative;
+        top: 0.8em;
+        width: 42%;
+}
+.su-form_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* width: 100%; */
+}
+.su-form_heading {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        text-align: center;
+        margin-top: 0;
+        background-color: white;
+}
+.su-contained-btn , .su-contained-btn-G
+{
+            width: 90%;
+			height: 3.5rem;
+			border-radius: 50rem;
+			border: none;
+			outline: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 1.2rem;
+			font-weight: 600;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: white;
+			cursor: pointer;
+			margin: 0.5rem 0;
+            color: white;
+            background-color: white;
+            border: 2px solid gray;
+            
+}
+
+.su-contained-btn svg,.su-contained-btn i
+{
+	height: 2rem;
+    padding-top: 16px;
+	padding-left: 1rem;
+    background-color: transparent;
+}
+
+.su-input_container1{
+    margin-top: -90px;
+    margin-left: 60px;
+}
+.su-input_container1 ,.su-input_container{
+    margin-left: 170px;
+}
+.su-input_container input ,.su-input_container1 input{
+        /* width: 45rem;
+        margin: 0.5rem 0;
+        background-color: white; */
+        align-items: center;
+        /* justify-content: center; */
+        background-color: white;
+        width: 80%;
+        height: 70px;
+        margin: 0.5rem 0;
+        /* margin-left: -110px; */
+        border:  light lightgray;
+}
+
+.date_of_birth_container {
+        display: flex;
+        flex-direction: column;
+        width: 45rem;
+        margin: 0.5rem 0;
+        margin-left: 170px;
+        background-color: white;
+}
+.date_of_birth_container p {
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: white;
+}
+
+.date_of_birth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+.date_of_birth p {
+    font-weight: normal;
+    background-color: white;
+}
+
+.month {
+    width: 30%;
+    background-color: white;
+}
+
+.date input{
+    width: 50%;
+    height: 2.5rem;
+    background-color: white;
+}
+
+.year input{
+    width: 50%;
+    height: 2.5rem;
+    background-color: white;
+}
+.su-checkbox_container {
+    width: 45rem;
+    margin: 1rem 0;
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.su-checkbox_container checkbox{
+    background-color: white;
+}
+.terms_condition {
+    width: 45rem;
+    font-size: 0.87rem;
+    /* line-height: 1.8rem; */
+    font-weight: 300;
+    text-align: center;
+    /* margin: 0.8rem 0; */
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 12px;
+}
+.terms_condition a {
+    text-decoration: underline;
+    color:darkgreen;
+    background-color: white;
+}
+.su-submit_btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    margin: 1rem 0 1.5rem 0;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.su-submit_btn_wrapper button {
+    border-radius: 30rem;
+    width: 12rem;
+    height: 5.6rem;
+    background-color: #1ed760;
+}
+.terms_conditionl{
+    font-size: 00.875rem;
+    margin-left: 450px;
+}

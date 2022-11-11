@@ -19,7 +19,7 @@ function Home() {
             <p className="see-all">SEE ALL</p>
           </div>
           <div class="display-row" style={{ display: "flex" }}>
-            {contents.focus.map((song, index) => {
+            {contents.focus.slice(0,5).map((song, index) => {
               return (
                 <div class="card-container">
                   <SongCard
@@ -39,7 +39,7 @@ function Home() {
             <p class="see-all">SEE ALL</p>
           </div>
           <div class="display-row" style={{ display: "flex" }}>
-            {contents.mood.map((song, index) => {
+            {contents.mood.slice(0,5).map((song, index) => {
               return (
                 <>
                   <div class="card-container">
@@ -61,7 +61,7 @@ function Home() {
             <p class="see-all">SEE ALL</p>
           </div>
           <div class="display-row" style={{ display: "flex" }}>
-            {contents.artist.map((song, index) => {
+            {contents.artist.slice(0,5).map((song, index) => {
               return (
                 <>
                   <div class="card-container">
@@ -84,7 +84,7 @@ function Home() {
             <p class="see-all">SEE ALL</p>
           </div>
           <div class="display-row" style={{ display: "flex" }}>
-            {contents.playlist.map((song, index) => {
+            {contents.playlist.slice(0,5).map((song, index) => {
               return (
                 <>
                   <div class="card-container">

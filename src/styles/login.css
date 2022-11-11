@@ -8,6 +8,9 @@
 	flex-direction: column;
 	align-items: center;
     background-color: white;
+	top: 0;
+	left: 0;
+	padding-top: 2.5rem;
 }
 .logo-container {
 	width: 100%;
@@ -58,24 +61,8 @@ Link{
             background-color: white;
 }
 
-.contained-btn , .contained-btn-G
+.log-contained-btn , .log-contained-btn-G
 {
-			/* width: 100%;
-			height: 2.5rem;
-			border-radius: 50px;
-			border: none;
-			outline: none;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			font-size: 0.875rem;
-			font-weight: 700;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			color: white;
-			cursor: pointer;
-			margin: 0.5rem 0;
-            background-color: white; */
             width: 100%;
 			height: 3.5rem;
 			border-radius: 50rem;
@@ -97,13 +84,8 @@ Link{
             
 }
 
-.contained-btn svg,.contained-btn i
+.log-contained-btn svg,.log-contained-btn i
 {
-	/* width: 2rem;
-	height: 2rem;
-	padding-top: 17px;
-    color: white;
-    background-color: white; */
     width: 2.5rem;
 	height: 2rem;
     padding-top: 16px;
@@ -111,29 +93,12 @@ Link{
     background-color: transparent;
 }
 
-.outline-btn 
+.log-outline-btn 
 {
-			/* width: 98%;
-			height: 2.6rem;
-			border-radius: 50rem;
-			border: 1px solid gray;
-			outline: none;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			font-size: 0.875rem;
-			font-weight: 600;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			color: var(--light-gray);
-			cursor: pointer;
-			margin: 0.5rem 0;
-			background: transparent;
-			transition: all ease 0.5s; */
             width: 100%;
 			height: 5rem;
 			border-radius: 50rem;
-			border: 2px solid var(--gray);
+			border: 2px solid gray;
 			outline: none;
 			display: flex;
 			align-items: center;
@@ -148,10 +113,9 @@ Link{
 			background: white;
 			transition: all ease 0.5s;
             decoration:none;
-            /* background-color: transparent; */
 
 }
-.outline-btn svg 
+.log-outline-btn svg 
 {
 	/* width: 2rem;
 	height: 2rem;
@@ -161,7 +125,7 @@ Link{
 	padding-right: 1.5rem;
     background-color: white;
 }
-.outline-btn:hover 
+.log-outline-btn:hover 
 {
 	background: var(--light-gray);
 	border-color: var(--light-gray);
@@ -249,7 +213,7 @@ Link{
 }
 		
 
-.form_container {
+.log-form_container {
 			display: flex;
 			flex-direction: column;
             background-color: white;
@@ -262,7 +226,7 @@ Link{
     background-color: white;
 	font-size: ;
 } */
-.input_container input
+.log-input_container input
 {
     /* margin: 0.5rem 0; */
 				/* width: 98%;
@@ -278,7 +242,7 @@ Link{
 
 }
 
-.forgot_psw {
+.log-forgot_psw {
 				/* color: var(--dark-green);
 				font-size: 1rem;
 				font-weight: 400;
@@ -295,7 +259,7 @@ Link{
                 width: 100%;
                 background-color: white;
 }
-.form_bottom{
+.log-form_bottom{
 	/* display: flex;
 	flex-direction: row; */
     display: flex;
@@ -306,34 +270,31 @@ Link{
 	border-bottom: 0.1rem solid var(--light-gray);
     background-color: white;
 }
-.form_bottom input{
+.log-form_bottom input{
     zoom: 1.5;
     background-color: white;
 }
-.form_bottom p{
+.log-form_bottom p{
 	display: flex;
 	font-size: 25px;
 	font-weight: 400;
     margin-left: -150px;
     background-color: white;
 }
-.form_bottom-button{
-	/* width: 100%; */
+.log-form_bottom-button{
 	width: 120px;
 	background-color: #1ed760;
 	display: flex;
 	position: relative;
-	/* justify-content: space-between; */
 	align-items: center;
-	/* margin-left: 200px; */
 	border-radius: 50px;
 	padding:20px 100px ;
     font-size: 20px;
     font-weight: 300;
-	/* border-bottom: 0.1rem solid var(--light-gray); */
 	color: black ;
+	background-color: white;
 }
-.bottom-hr{
+.log-bottom-hr{
 	display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;

@@ -1,0 +1,98 @@
+.audio_player {
+	width: calc(100% - 8rem);
+	height: 10rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #282828;
+	z-index: 200;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 4rem;
+}
+.ap-left {
+    display: flex;
+    flex: 1;
+}
+.ap-left img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+}
+.ap-song_info {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.ap-song_info p{
+    margin: 0;
+    padding-top: 8px;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ap-song_name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.ap-song_artist {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #919496;
+}
+.ap-center{
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.ap-audio_controls{
+    margin-top: 1rem;
+}
+.tool_tip {
+    font-size: 1.2rem !important;
+}
+
+.ap-play svg {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.ap-prev,.ap-next {
+	color: #919496;
+}
+.ap-next svg{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.ap-progress_container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 1.5rem 0;
+    height: 1rem;
+}
+.ap-progress_container p {
+    color: #919496;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+.ap-progress {
+    width: 50rem;
+    height: 0.5rem;
+}
+.ap-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+

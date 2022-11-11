@@ -1,9 +1,8 @@
-/* *{
-    background-color: black;
-} */
+
 .cp-container {
     position: relative;
     margin-left: 300px;
+	margin-top: -300px;
     background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.4) 100%);
 }
 .progress_container {
@@ -50,6 +49,7 @@
 }
 .cp-playlist_info span {
 				font-size: 1.4rem;
+                color: white;
 }
 .cp-actions_container {
 			position: absolute;
@@ -82,6 +82,7 @@
 }
 .cp-left span {
 					margin-right: 1.5rem;
+                    color: white;
 }
 
 .cp-left p {
@@ -104,9 +105,11 @@
 				display: flex;
 				justify-content: flex-end;
 				padding-right: 4rem;
+                color: white;
 
 }
 .cp-right svg {
 	width: 2rem;
 	height: 2rem;
+    color: white;
 }

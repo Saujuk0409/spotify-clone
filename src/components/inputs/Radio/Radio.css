@@ -1,0 +1,27 @@
+.rad-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+    background-color: white;
+}
+.rad-container p {
+    margin: 0.5rem 0;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: white;
+}
+.cont-2{
+    background-color: #fff;
+}
+.radio_input span {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 1rem;
+        text-transform: capitalize;
+        background-color: white ;
+}
+.radio_input{
+    background-color: white;
+}

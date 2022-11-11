@@ -1,14 +1,14 @@
 
 
-.container {
+.lib-container {
 	padding: 0 2rem;
-    padding-top: 5rem;
     margin-left: 300px;
-    width: 90%;
+	margin-top: -300px;
+    width: 85%;
 	height: 100%;
 	background-color: black;
 }
-.container h1 {
+.lib-container h1 {
 		font-size: 1.5rem;
         padding-left: 12px;
 		text-transform: capitalize;
