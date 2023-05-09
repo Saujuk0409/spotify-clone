@@ -9,7 +9,6 @@ import '../styles/NavbarStyle.css';
 import topNavBar from './topNavBar';
 import * as IoIcons from 'react-icons/io';
 
-
 function Navbar({showSearch}) {
   const navigate=useNavigate();
   const navigateLogin=() => {
